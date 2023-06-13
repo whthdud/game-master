@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'NeoDunggeunmoPro-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/NeoDunggeunmoPro-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+span{
+    font-family: 'NanumSquareNeo-Variable';
+}
+
+
+body{
+    color: white;
+    text-align: center;
+    background: url("../img/배경3.jpg")no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#wrap{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+button{
+    padding: 5px 10px ;
+    cursor: pointer;
+    margin-top: 220px;
+    border: none;
+    font-size: 50px;
+    font-family: 'NeoDunggeunmoPro-Regular';
+    background-color: transparent;
+    margin-left: 15px;
+}
+
+
+button:hover{
+    color: yellow;
+}
+
+
+.logo{
+    position: absolute;
+    top: 100px;
+    right: 300px;
+    animation: move 5s ease-in-out infinite;
+}
+
+
+.one{
+    width: 300px;
+    height: 40px;
+    background-color: rgba(255,255,255,0.5);
+    display: block;
+    color: black;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    display: none;
+}
+
+.two{
+    width: 300px;
+    height: 40px;
+    background-color: rgba(255,255,255,0.5);
+    display: block;
+    color: black;
+    position: absolute;
+    top: 300px;
+    left: 600px;
+    display: none;
+}
+
+
+
+@keyframes move{
+
+    0%{
+
+    }
+
+    50%{
+        right: 800px;
+        top: 100px;
+    }
+
+    100%{
+        right: 300px;
+        top: 100px;
+    }
+    
+}
+

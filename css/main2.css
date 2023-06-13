@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a{text-decoration: none; color: inherit;}
+
+
+.wrap{
+    width: 1200px;
+    margin: 150px auto;
+
+}
+
+
+body{
+    background: url("../img/방.jpg") no-repeat;
+    background-size: cover;
+}
+
+.box img{
+    width: calc(100% - 90%);
+    height: calc(100% - 90%);
+    float: left;
+    cursor: pointer;
+}
+
+
+
+
+.panda img{
+    width: calc(100% - 80%);
+    height: calc(100% - 80%);
+    margin-top: 30px;
+    margin-left: 470px;
+}
+
+
+.replay img{
+    width: 60px;
+    height: 60px;
+    margin-left: 550px;
+    position: absolute;
+    top: 110px;
+}
+
+
+.replay:hover img{
+    display: none;
+}
+
+.replay:hover p{
+    display: block;
+}
+
+.replay .re_p{
+    font-family: 'NanumSquareNeo-Variable';
+    margin-left: 550px;
+    position: absolute;
+    top: 110px;
+    font-size: 18px;
+    font-weight: bold;
+    display: none;
+    color: red;
+    
+} 
+
